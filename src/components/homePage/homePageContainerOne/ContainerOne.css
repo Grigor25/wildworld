@@ -1,0 +1,71 @@
+.boxes {
+  max-width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 60;
+  display: grid;
+  grid-template-columns: repeat(8,8fr);
+  grid-template-rows: repeat(8,8fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+.box {
+  box-shadow: 8px 10px 5px grey;
+}
+
+.box:nth-child(1) {
+    background: url(./../../../img/Amazon/Jaguar/Jaguar.jpg) no-repeat ; 
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: cover ; /* Современные браузеры */   
+    grid-column: 5 / 9;
+    grid-row-start: 1;
+    grid-row-end: 9;
+    display: flex;
+    align-items: center;
+ }
+.box:nth-child(2) {
+    background: url(./../../../img/Safari/Elephants/elephant.png);
+    background-size: 100% 100%;
+    grid-column: 1 / 3;
+    grid-row: 1 / 9;
+    position: relative;
+  }
+  .wallper {
+    min-height: 100%;
+    max-width: 100%;
+  }
+  .box:nth-child(3) {
+    background: url(./../../../img/Ocean/Wallpers/ocean.jpg);
+    background-size: 100% 100%;
+    grid-column: 3 / 5;
+    grid-row: 1 / 5;
+  }
+  .banner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+  }
+  .box:nth-child(2):hover .banner {
+    position: absolute;
+    bottom: 0;
+    color: aliceblue;
+    font-size: 35px;
+    text-align: center;
+    font-family: cursive;
+    left: 0;
+    opacity: 0.8;
+    width: 100%;
+    background-color: black;
+    height: 30%;
+    cursor: pointer;
+  }
+  
+  .box:nth-child(4) {
+    background: url(./../../../img/Birds/Wallper/ara.jpg);
+    background-size: 100% 100%;
+    grid-column: 3 / 5;
+    grid-row: 5 / 9;
+  }
