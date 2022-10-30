@@ -1,0 +1,30 @@
+
+.signin {
+  min-width: 120px;
+  min-height: 40px;
+  margin-right: 15px;
+  background: black;
+  color: bisque;
+  cursor: pointer;
+}
+.signup {
+  min-width: 120px;
+  min-height: 40px;
+  background: black;
+  color: bisque;
+  cursor: pointer;
+}
+
+.button-53:focus {
+  outline: 0;
+}
+
+.button-53:after {
+  
+}
+
+.button-53:hover:after {
+  bottom: 2px;
+  left: 2px;
+}
+

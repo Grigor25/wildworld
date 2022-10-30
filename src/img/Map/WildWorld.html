@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3000/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>WildWorld</title>
+  <script defer="" src="./WildWorld_files/bundle.js.download"></script><style>body {
+  /* margin-bottom: 8px; */
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9pbmRleC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSx3QkFBd0I7RUFDeEIsU0FBUztFQUNUOztjQUVZO0VBQ1osbUNBQW1DO0VBQ25DLGtDQUFrQztBQUNwQzs7QUFFQTtFQUNFO2FBQ1c7QUFDYiIsInNvdXJjZXNDb250ZW50IjpbImJvZHkge1xuICAvKiBtYXJnaW4tYm90dG9tOiA4cHg7ICovXG4gIG1hcmdpbjogMDtcbiAgZm9udC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgJ1JvYm90bycsICdPeHlnZW4nLFxuICAgICdVYnVudHUnLCAnQ2FudGFyZWxsJywgJ0ZpcmEgU2FucycsICdEcm9pZCBTYW5zJywgJ0hlbHZldGljYSBOZXVlJyxcbiAgICBzYW5zLXNlcmlmO1xuICAtd2Via2l0LWZvbnQtc21vb3RoaW5nOiBhbnRpYWxpYXNlZDtcbiAgLW1vei1vc3gtZm9udC1zbW9vdGhpbmc6IGdyYXlzY2FsZTtcbn1cblxuY29kZSB7XG4gIGZvbnQtZmFtaWx5OiBzb3VyY2UtY29kZS1wcm8sIE1lbmxvLCBNb25hY28sIENvbnNvbGFzLCAnQ291cmllciBOZXcnLFxuICAgIG1vbm9zcGFjZTtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0= */</style><style>.App {
+  height: 100vh;
+}
+
+
+
+
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9BcHAuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsYUFBYTtBQUNmIiwic291cmNlc0NvbnRlbnQiOlsiLkFwcCB7XG4gIGhlaWdodDogMTAwdmg7XG59XG5cblxuXG5cbiJdLCJzb3VyY2VSb290IjoiIn0= */</style><style>.img1 {
+    background: url(http://localhost:3000/static/media/lev3.6bbabf4c5433b96b9faf.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9jb21wb25lbnRzL2F1dGgvU2lnbkluLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGlGQUFtRTtJQUluRSxzQkFBc0I7QUFDMUIiLCJzb3VyY2VzQ29udGVudCI6WyIuaW1nMSB7XHJcbiAgICBiYWNrZ3JvdW5kOiB1cmwoLi8uLi8uLi9pbWcvbGV2My5qcGcpIG5vLXJlcGVhdCBjZW50ZXIgY2VudGVyIGZpeGVkOyBcclxuICAgIC13ZWJraXQtYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxuICAgIC1tb3otYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxuICAgIC1vLWJhY2tncm91bmQtc2l6ZTogY292ZXI7XHJcbiAgICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xyXG59Il0sInNvdXJjZVJvb3QiOiIifQ== */</style><style>.img {
+    background: url(http://localhost:3000/static/media/olen2.4d6e5ad3361f620b2e79.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9jb21wb25lbnRzL2F1dGgvU2lnblVwLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGlGQUFvRTtJQUlwRSxzQkFBc0I7QUFDMUIiLCJzb3VyY2VzQ29udGVudCI6WyIuaW1nIHtcclxuICAgIGJhY2tncm91bmQ6IHVybCguLy4uLy4uL2ltZy9vbGVuMi5qcGcpIG5vLXJlcGVhdCBjZW50ZXIgY2VudGVyIGZpeGVkOyBcclxuICAgIC13ZWJraXQtYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxuICAgIC1tb3otYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxuICAgIC1vLWJhY2tncm91bmQtc2l6ZTogY292ZXI7XHJcbiAgICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xyXG59XHJcblxyXG4iXSwic291cmNlUm9vdCI6IiJ9 */</style><style>
+.button-53 {
+  background-color: #3de768;
+  border: 0 solid #E5E7EB;
+  box-sizing: border-box;
+  color: #000000;
+  display: flex;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.15rem;
+  padding: .75rem 1.65rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none #000000 solid;
+  text-decoration-thickness: auto;
+  width: 60%;
+  max-width: 460px;
+  position: relative;
+  cursor: pointer;
+  transform: rotate(-2deg);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-53:focus {
+  outline: 0;
+}
+
+.button-53:after {
+  content: '';
+  position: absolute;
+  border: 1px solid #000000;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+.button-53:hover:after {
+  bottom: 2px;
+  left: 2px;
+}
+
+@media (min-width: 768px) {
+  .button-53 {
+    padding: .75rem 3rem;
+    font-size: 1.25rem;
+  }
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9jb21wb25lbnRzL2hvbWVQYWdlL2hlYWRlci9hdXRoLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQ0E7RUFDRSx5QkFBeUI7RUFDekIsdUJBQXVCO0VBQ3ZCLHNCQUFzQjtFQUN0QixjQUFjO0VBQ2QsYUFBYTtFQUNiLHNNQUFzTTtFQUN0TSxlQUFlO0VBQ2YsZ0JBQWdCO0VBQ2hCLHVCQUF1QjtFQUN2QixvQkFBb0I7RUFDcEIsdUJBQXVCO0VBQ3ZCLGtCQUFrQjtFQUNsQixrQkFBa0I7RUFDbEIsbUNBQW1DO0VBQ25DLCtCQUErQjtFQUMvQixVQUFVO0VBQ1YsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtFQUNsQixlQUFlO0VBQ2Ysd0JBQXdCO0VBQ3hCLGlCQUFpQjtFQUNqQix5QkFBeUI7RUFDekIsMEJBQTBCO0FBQzVCOztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UsV0FBVztFQUNYLGtCQUFrQjtFQUNsQix5QkFBeUI7RUFDekIsV0FBVztFQUNYLFNBQVM7RUFDVCx1QkFBdUI7RUFDdkIsd0JBQXdCO0FBQzFCOztBQUVBO0VBQ0UsV0FBVztFQUNYLFNBQVM7QUFDWDs7QUFFQTtFQUNFO0lBQ0Usb0JBQW9CO0lBQ3BCLGtCQUFrQjtFQUNwQjtBQUNGIiwic291cmNlc0NvbnRlbnQiOlsiXHJcbi5idXR0b24tNTMge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICMzZGU3Njg7XHJcbiAgYm9yZGVyOiAwIHNvbGlkICNFNUU3RUI7XHJcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxuICBjb2xvcjogIzAwMDAwMDtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGZvbnQtZmFtaWx5OiB1aS1zYW5zLXNlcmlmLHN5c3RlbS11aSwtYXBwbGUtc3lzdGVtLHN5c3RlbS11aSxcIlNlZ29lIFVJXCIsUm9ib3RvLFwiSGVsdmV0aWNhIE5ldWVcIixBcmlhbCxcIk5vdG8gU2Fuc1wiLHNhbnMtc2VyaWYsXCJBcHBsZSBDb2xvciBFbW9qaVwiLFwiU2Vnb2UgVUkgRW1vamlcIixcIlNlZ29lIFVJIFN5bWJvbFwiLFwiTm90byBDb2xvciBFbW9qaVwiO1xyXG4gIGZvbnQtc2l6ZTogMXJlbTtcclxuICBmb250LXdlaWdodDogNzAwO1xyXG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gIGxpbmUtaGVpZ2h0OiAxLjE1cmVtO1xyXG4gIHBhZGRpbmc6IC43NXJlbSAxLjY1cmVtO1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lICMwMDAwMDAgc29saWQ7XHJcbiAgdGV4dC1kZWNvcmF0aW9uLXRoaWNrbmVzczogYXV0bztcclxuICB3aWR0aDogNjAlO1xyXG4gIG1heC13aWR0aDogNDYwcHg7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxuICB0cmFuc2Zvcm06IHJvdGF0ZSgtMmRlZyk7XHJcbiAgdXNlci1zZWxlY3Q6IG5vbmU7XHJcbiAgLXdlYmtpdC11c2VyLXNlbGVjdDogbm9uZTtcclxuICB0b3VjaC1hY3Rpb246IG1hbmlwdWxhdGlvbjtcclxufVxyXG5cclxuLmJ1dHRvbi01Mzpmb2N1cyB7XHJcbiAgb3V0bGluZTogMDtcclxufVxyXG5cclxuLmJ1dHRvbi01MzphZnRlciB7XHJcbiAgY29udGVudDogJyc7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIGJvcmRlcjogMXB4IHNvbGlkICMwMDAwMDA7XHJcbiAgYm90dG9tOiA0cHg7XHJcbiAgbGVmdDogNHB4O1xyXG4gIHdpZHRoOiBjYWxjKDEwMCUgLSAxcHgpO1xyXG4gIGhlaWdodDogY2FsYygxMDAlIC0gMXB4KTtcclxufVxyXG5cclxuLmJ1dHRvbi01Mzpob3ZlcjphZnRlciB7XHJcbiAgYm90dG9tOiAycHg7XHJcbiAgbGVmdDogMnB4O1xyXG59XHJcblxyXG5AbWVkaWEgKG1pbi13aWR0aDogNzY4cHgpIHtcclxuICAuYnV0dG9uLTUzIHtcclxuICAgIHBhZGRpbmc6IC43NXJlbSAzcmVtO1xyXG4gICAgZm9udC1zaXplOiAxLjI1cmVtO1xyXG4gIH1cclxufSJdLCJzb3VyY2VSb290IjoiIn0= */</style><style>.boxes {
+  max-width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 60%;
+  display: grid;
+  grid-template-columns: repeat(8,8fr);
+  grid-template-rows: repeat(8,8fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+.box:nth-child(1) {
+    background: url(http://localhost:3000/static/media/Jaguar.52905d3eea46c0414a40.jpg) no-repeat ; /* Firefox 3.6+ */ /* Safari 3.1+ и Chrome 4.0+ */ /* Opera 9.6+ */
+    background-size: cover ; /* Современные браузеры */   
+    grid-column: 5 / 9;
+    grid-row-start: 1;
+    grid-row-end: 9;
+    display: flex;
+    align-items: center;
+ }
+.box:nth-child(2) {
+    background: url(http://localhost:3000/static/media/elephant.edd45242196a0a5f5a92.png);
+    background-size: 100% 100%;
+    grid-column: 1 / 3;
+    grid-row: 1 / 9;
+    justify-content: center;
+    display: flex;
+    position: relative;
+  }
+  .wallper {
+    min-height: 100%;
+    max-width: 100%;
+  }
+  .box:nth-child(3) {
+    background: url(http://localhost:3000/static/media/ocean.484e188b98695ee4592f.jpg);
+    background-size: 100% 100%;
+    grid-column: 3 / 5;
+    grid-row: 1 / 5;
+  }
+  .banner {
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    flex: 1 1
+  }
+
+  .banner:hover {
+    position: absolute;
+    bottom: 0;
+    flex: 0 1;
+    color: aliceblue;
+    font-size: 35px;
+    text-align: center;
+    font-family: cursive;
+    left: 0;
+    opacity: 0.6;
+    width: 100%;
+    background-color: black;
+    height: 100%;
+  }
+  .box:nth-child(4) {
+    background: url(http://localhost:3000/static/media/ara.8e2499cc78f579bce2f9.jpg);
+    background-size: 100% 100%;
+    grid-column: 3 / 5;
+    grid-row: 5 / 9;
+  }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9jb21wb25lbnRzL2hvbWVQYWdlL2hvbWVQYWdlQ29udGFpbmVyT25lL0NvbnRhaW5lck9uZS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxlQUFlO0VBQ2Ysa0JBQWtCO0VBQ2xCLG1CQUFtQjtFQUNuQixXQUFXO0VBQ1gsYUFBYTtFQUNiLG9DQUFvQztFQUNwQyxpQ0FBaUM7RUFDakMsb0JBQW9CO0VBQ3BCLGlCQUFpQjtBQUNuQjs7QUFFQTtJQUNJLDhEQUFtRSxFQUN2QyxpQkFBaUIsRUFDZCw4QkFBOEIsRUFDbkMsZUFBZTtJQUN6Qyx1QkFBdUIsRUFBRSx5QkFBeUI7SUFDbEQsa0JBQWtCO0lBQ2xCLGlCQUFpQjtJQUNqQixlQUFlO0lBQ2YsYUFBYTtJQUNiLG1CQUFtQjtDQUN0QjtBQUNEO0lBQ0ksbURBQTZEO0lBQzdELDBCQUEwQjtJQUMxQixrQkFBa0I7SUFDbEIsZUFBZTtJQUNmLHVCQUF1QjtJQUN2QixhQUFhO0lBQ2Isa0JBQWtCO0VBQ3BCO0VBQ0E7SUFDRSxnQkFBZ0I7SUFDaEIsZUFBZTtFQUNqQjtFQUNBO0lBQ0UsbURBQXdEO0lBQ3hELDBCQUEwQjtJQUMxQixrQkFBa0I7SUFDbEIsZUFBZTtFQUNqQjtFQUNBO0lBQ0Usa0JBQWtCO0lBQ2xCLHNCQUFzQjtJQUN0QixTQUFTO0lBQ1QsT0FBTztJQUNQLFdBQVc7SUFDWCxZQUFZO0lBQ1osVUFBVTtJQUNWO0VBQ0Y7O0VBRUE7SUFDRSxrQkFBa0I7SUFDbEIsU0FBUztJQUNULFNBQU87SUFDUCxnQkFBZ0I7SUFDaEIsZUFBZTtJQUNmLGtCQUFrQjtJQUNsQixvQkFBb0I7SUFDcEIsT0FBTztJQUNQLFlBQVk7SUFDWixXQUFXO0lBQ1gsdUJBQXVCO0lBQ3ZCLFlBQVk7RUFDZDtFQUNBO0lBQ0UsbURBQXFEO0lBQ3JELDBCQUEwQjtJQUMxQixrQkFBa0I7SUFDbEIsZUFBZTtFQUNqQiIsInNvdXJjZXNDb250ZW50IjpbIi5ib3hlcyB7XHJcbiAgbWF4LXdpZHRoOiAxMDAlO1xyXG4gIHBhZGRpbmctbGVmdDogNTBweDtcclxuICBwYWRkaW5nLXJpZ2h0OiA1MHB4O1xyXG4gIGhlaWdodDogNjAlO1xyXG4gIGRpc3BsYXk6IGdyaWQ7XHJcbiAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiByZXBlYXQoOCw4ZnIpO1xyXG4gIGdyaWQtdGVtcGxhdGUtcm93czogcmVwZWF0KDgsOGZyKTtcclxuICBncmlkLWNvbHVtbi1nYXA6IDVweDtcclxuICBncmlkLXJvdy1nYXA6IDVweDtcclxufVxyXG5cclxuLmJveDpudGgtY2hpbGQoMSkge1xyXG4gICAgYmFja2dyb3VuZDogdXJsKC4vLi4vLi4vLi4vaW1nL0FtYXpvbi9KYWd1YXIvSmFndWFyLmpwZykgbm8tcmVwZWF0IDsgXHJcbiAgICAtbW96LWJhY2tncm91bmQtc2l6ZTogMTAwJTsgLyogRmlyZWZveCAzLjYrICovXHJcbiAgICAtd2Via2l0LWJhY2tncm91bmQtc2l6ZTogMTAwJTsgLyogU2FmYXJpIDMuMSsg0LggQ2hyb21lIDQuMCsgKi9cclxuICAgIC1vLWJhY2tncm91bmQtc2l6ZTogMTAwJTsgLyogT3BlcmEgOS42KyAqL1xyXG4gICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlciA7IC8qINCh0L7QstGA0LXQvNC10L3QvdGL0LUg0LHRgNCw0YPQt9C10YDRiyAqLyAgIFxyXG4gICAgZ3JpZC1jb2x1bW46IDUgLyA5O1xyXG4gICAgZ3JpZC1yb3ctc3RhcnQ6IDE7XHJcbiAgICBncmlkLXJvdy1lbmQ6IDk7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuIH1cclxuLmJveDpudGgtY2hpbGQoMikge1xyXG4gICAgYmFja2dyb3VuZDogdXJsKC4vLi4vLi4vLi4vaW1nL1NhZmFyaS9FbGVwaGFudHMvZWxlcGhhbnQucG5nKTtcclxuICAgIGJhY2tncm91bmQtc2l6ZTogMTAwJSAxMDAlO1xyXG4gICAgZ3JpZC1jb2x1bW46IDEgLyAzO1xyXG4gICAgZ3JpZC1yb3c6IDEgLyA5O1xyXG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIH1cclxuICAud2FsbHBlciB7XHJcbiAgICBtaW4taGVpZ2h0OiAxMDAlO1xyXG4gICAgbWF4LXdpZHRoOiAxMDAlO1xyXG4gIH1cclxuICAuYm94Om50aC1jaGlsZCgzKSB7XHJcbiAgICBiYWNrZ3JvdW5kOiB1cmwoLi8uLi8uLi8uLi9pbWcvT2NlYW4vV2FsbHBlcnMvb2NlYW4uanBnKTtcclxuICAgIGJhY2tncm91bmQtc2l6ZTogMTAwJSAxMDAlO1xyXG4gICAgZ3JpZC1jb2x1bW46IDMgLyA1O1xyXG4gICAgZ3JpZC1yb3c6IDEgLyA1O1xyXG4gIH1cclxuICAuYmFubmVyIHtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcbiAgICBib3R0b206IDA7XHJcbiAgICBsZWZ0OiAwO1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICBoZWlnaHQ6IDEwMCU7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gICAgZmxleDogMVxyXG4gIH1cclxuXHJcbiAgLmJhbm5lcjpob3ZlciB7XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICBib3R0b206IDA7XHJcbiAgICBmbGV4OiAwO1xyXG4gICAgY29sb3I6IGFsaWNlYmx1ZTtcclxuICAgIGZvbnQtc2l6ZTogMzVweDtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGZvbnQtZmFtaWx5OiBjdXJzaXZlO1xyXG4gICAgbGVmdDogMDtcclxuICAgIG9wYWNpdHk6IDAuNjtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogYmxhY2s7XHJcbiAgICBoZWlnaHQ6IDEwMCU7XHJcbiAgfVxyXG4gIC5ib3g6bnRoLWNoaWxkKDQpIHtcclxuICAgIGJhY2tncm91bmQ6IHVybCguLy4uLy4uLy4uL2ltZy9CaXJkcy9XYWxscGVyL2FyYS5qcGcpO1xyXG4gICAgYmFja2dyb3VuZC1zaXplOiAxMDAlIDEwMCU7XHJcbiAgICBncmlkLWNvbHVtbjogMyAvIDU7XHJcbiAgICBncmlkLXJvdzogNSAvIDk7XHJcbiAgfSJdLCJzb3VyY2VSb290IjoiIn0= */</style><style data-jss="" data-meta="Unthemed">
+.main-0-2-3 {
+  flex: 2;
+  display: flex;
+  justify-content: start;
+}
+.text-0-2-4 {
+  color: #3DD1E7;
+  font-size: 2.9rem;
+  transform: rotate(2deg);
+  font-family: monospase;
+}
+</style><style data-jss="" data-meta="Unthemed">
+.main-0-2-8 {
+  flex: 2;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  justify-content: center;
+}
+</style><style data-jss="" data-meta="Unthemed">
+.main-0-2-5 {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+}
+.span-0-2-6 {
+  color: #3DD1E7;
+  transform: rotate(-2deg);
+}
+.home-0-2-7 {
+  color: #3DD1E7;
+  transform: rotate(-2deg);
+}
+</style><style data-jss="" data-meta="Unthemed">
+.header-0-2-2 {
+  height: 120px;
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+</style><style data-jss="" data-meta="Unthemed">
+
+</style><style data-jss="" data-meta="Unthemed">
+
+</style></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="App"><div class="main-0-2-1"><div class="header-0-2-2"><div class="main-0-2-3"><span class="text-0-2-4">WildWorld</span></div><div class="main-0-2-5"><span class="home-0-2-7">Home</span><span class="span-0-2-6">Areas</span><span class="span-0-2-6">Categories</span><span class="span-0-2-6">Countries</span><span class="span-0-2-6">Contacts</span></div><div class="main-0-2-8"><button class="button-53" role="button">Sign In</button><button class="button-53">Sign UP</button></div></div><div class="worldMap"><div class="Africa"></div><div class="Europe"></div><div class="Asia"></div><div class="Australia"></div><div class="SouthAmerica"></div><div class="NorthAmerica"></div></div><div class="main"><div class="boxes"><div class="box"></div><div class="box"><img class="wallper" alt="elp" src="./WildWorld_files/elephant.edd45242196a0a5f5a92.png"><div class="banner">Африканский Слон</div></div><div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div></div></div></div></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  
+
+</body></html>

@@ -1,0 +1,52 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    flex: 2
+}
+.span {
+    /* transform: rotate(-2deg); */
+    color: #000000
+}
+.home {
+    color: #000000;
+    position: relative;
+    cursor: pointer;
+}
+.home:hover {
+    
+}
+.list1 {
+    display: none;
+    
+}
+.home:hover .list1 {
+    display: block;
+    min-width: 100%;
+    border: 1px solid black;
+    list-style: none;
+    position: absolute;
+    background: bisque;
+    padding: 0;
+    top: 6px;
+    left: 0;
+    left: 0;
+    /* width: 100vw; */
+}
+.home:hover .modal {
+    position: fixed;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    opacity: 0.3;
+}
+.list1>li {
+    min-width: max-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+.list1>li:hover {
+  background: #000000;
+  color: white;
+}
